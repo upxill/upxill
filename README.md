@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Srinivasarao Polagani</h1>
-<h3 align="center">Principal Engineer @ Optum (TLCP) | Agentic AI, MuleSoft & Cloud Integration Architect</h3>
+<h3 align="center">Principal Engineer, (TLCP) | Agentic AI, MuleSoft & Cloud Integration Architect</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/itspolagani"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
