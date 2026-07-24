@@ -18,13 +18,13 @@
 
 I build production AI systems — and the enterprise integration platforms underneath them — that have to survive HIPAA audits, not just demos.
 
-- Building **multi-agent, agentic AI workflows** with **Google ADK, LangChain, LangGraph & Pydantic AI**
-- Implementing **RAG pipelines** with **Chroma & Vertex AI** for real clinical operations teams, at enterprise scale
-- Architecting **API-led integration** on **MuleSoft** across 100+ APIs and 50M+ daily transactions at **99.99% uptime**
-- Delivering **cloud & integration projects** across **GCP, AWS, and Azure** — CloudHub 2.0, Runtime Fabric, event-driven architecture with Kafka, Pub/Sub, and SQS/SNS
-- Engineering **Databricks / PySpark / Airflow** data pipelines unifying records for **50M+ members**
-- Designing **AI Gateway** patterns for safe LLM traffic routing, prompt governance & model endpoint security
-- Applying 15+ years of **SRE discipline** (SLIs, SLOs, error budgets) to AI systems as production infrastructure
+- 🤖 Building **multi-agent, agentic AI workflows** with **Google ADK, LangChain, LangGraph & Pydantic AI**
+- 🔍 Implementing **RAG pipelines** with **Chroma & Vertex AI** for real clinical operations teams, at enterprise scale
+- 🔗 Architecting **API-led integration** on **MuleSoft** across 100+ APIs and 50M+ daily transactions at **99.99% uptime**
+- ☁️ Delivering **cloud & integration projects** across **GCP, AWS, and Azure** — CloudHub 2.0, Runtime Fabric, event-driven architecture with Kafka, Pub/Sub, and SQS/SNS
+- 🗃️ Engineering **Databricks / PySpark / Airflow** data pipelines unifying records for **50M+ members**
+- 🛡️ Designing **AI Gateway** patterns for safe LLM traffic routing, prompt governance & model endpoint security
+- 📊 Applying 15+ years of **SRE discipline** (SLIs, SLOs, error budgets) to AI systems as production infrastructure
 
 ---
 
