@@ -33,7 +33,7 @@ I build production AI systems — and the enterprise integration platforms under
 
 <table>
 <tr>
-<td valign="top" width="50%">
+<td valign="top" width="33%">
 
 #### 🟣 Agentic AI & LLM Orchestration
 - Multi-agent workflows — Google ADK, LangChain, LangGraph
@@ -47,7 +47,7 @@ I build production AI systems — and the enterprise integration platforms under
 - Confluent Kafka event-driven architecture (sub-100ms latency)
 
 </td>
-<td valign="top" width="50%">
+<td valign="top" width="33%">
 
 #### 🟠 MuleSoft & API-Led Integration
 - MuleSoft (5x Certified Architect) — CloudHub 2.0, Runtime Fabric
@@ -59,6 +59,15 @@ I build production AI systems — and the enterprise integration platforms under
 - SLIs, SLOs & error budgets for mission-critical platforms
 - Observability — OpenTelemetry, Datadog, Dynatrace, Grafana
 - Incident rigor applied to AI + integration infrastructure
+
+</td>
+<td valign="top" width="33%">
+
+#### ☁️ Cloud & Platform Engineering
+- **GCP** — Vertex AI, GKE, Pub/Sub, Cloud Run
+- **AWS** — SQS/SNS, Lambda, EKS, S3
+- **Azure** — AKS, Azure Functions, Service Bus
+- Multi-cloud architecture, IaC & event-driven design at scale
 
 </td>
 </tr>
@@ -119,5 +128,3 @@ I build production AI systems — and the enterprise integration platforms under
 <p align="center">
   <a href="https://visitcount.itsvg.in"><img src="https://komarev.com/ghpvc/?username=upxill&icon=0&color=0" /></a>
 </p>
- 
-
