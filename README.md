@@ -79,11 +79,16 @@
 ![MuleSoft](https://img.shields.io/badge/MuleSoft-00A0DF?style=flat-square&logo=mulesoft&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
 ![Camunda](https://img.shields.io/badge/Camunda-FC5D0D?style=flat-square&logo=camunda&logoColor=white)
+![Oracle SOA](https://img.shields.io/badge/Oracle%20SOA-F80000?style=flat-square&logo=oracle&logoColor=white)
+![Workato](https://img.shields.io/badge/Workato-4A154B?style=flat-square&logo=workato&logoColor=white)
+![Dell Boomi](https://img.shields.io/badge/Dell%20Boomi-CC0000?style=flat-square&logoColor=white)
 
 **AI / Agentic**
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white)
+![Google ADK](https://img.shields.io/badge/Google%20ADK-4285F4?style=flat-square&logo=google&logoColor=white)
+![Amazon Bedrock](https://img.shields.io/badge/Amazon%20Bedrock-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
 ![Vertex AI](https://img.shields.io/badge/Vertex%20AI-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=FFD43B)
 
 **Cloud**
 ![GCP](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
@@ -99,6 +104,7 @@
 ![Dynatrace](https://img.shields.io/badge/Dynatrace-1496FF?style=flat-square&logo=dynatrace&logoColor=white)
 
 **Languages**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=FFD43B)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 
@@ -118,19 +124,6 @@
 | 🏅 Dell Boomi – Associate Developer Certification | Dell Boomi |
 | 🏅 Oracle Cloud Infrastructure Foundations 2021 – Certified Associate | Oracle |
 | 🏅 Confluent Fundamentals for Apache Kafka – Accredited | Confluent |
-
-<br>
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=upxill&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=upxill&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-![GitHub Streak](https://streak-stats.demolab.com/?user=upxill&theme=dark&hide_border=false)
-
-</div>
 
 <br>
 
