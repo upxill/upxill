@@ -15,6 +15,19 @@
 
 <br>
 
+<div align="center">
+
+![APIs in Production](https://img.shields.io/badge/APIs%20in%20Production-100%2B-24292F?style=for-the-badge)
+![Daily Transactions](https://img.shields.io/badge/Daily%20Transactions-50M%2B-24292F?style=for-the-badge)
+![Uptime SLA](https://img.shields.io/badge/Uptime%20SLA-99.99%25-24292F?style=for-the-badge)
+![Member Records Unified](https://img.shields.io/badge/Member%20Records%20Unified-50M%2B-24292F?style=for-the-badge)
+![MuleSoft](https://img.shields.io/badge/MuleSoft-5x%20Certified%20Architect-24292F?style=for-the-badge)
+![SRE Experience](https://img.shields.io/badge/SRE%20%2F%20Platform%20Experience-15%2B%20yrs-24292F?style=for-the-badge)
+
+</div>
+
+<br>
+
 ## 🚀 About Me
 
 - 🤖 Building **multi-agent, agentic AI workflows** with **Google ADK, LangChain, LangGraph & Pydantic AI**
@@ -110,6 +123,19 @@
 
 <br>
 
+## 📊 GitHub Activity
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=upxill&show_icons=true&theme=default&hide_border=true&count_private=true" width="49%" alt="Srinivasarao's GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=upxill&layout=compact&theme=default&hide_border=true" width="30%" alt="Top languages" />
+
+<img src="https://streak-stats.demolab.com/?user=upxill&theme=default&hide_border=true" width="70%" alt="GitHub streak stats" />
+
+</div>
+
+<br>
+
 ## 📜 Certifications
 
 | Certification | Issuer |
@@ -119,7 +145,7 @@
 | 🏅 Certified AI Dojo — Generative AI | Optum |
 | 🏅 Certified Kong Developer | Kong |
 | 🏅 Certified Camunda Architect | Camunda |
-| 🏅 Certified Workato Architect *(verify name)* | Workato |
+| 🏅 Certified Workato Architect | Workato |
 | 🏅 Oracle SOA Suite Certified Implementation Specialist | Oracle |
 | 🏅 Dell Boomi – Associate Developer Certification | Dell Boomi |
 | 🏅 Oracle Cloud Infrastructure Foundations 2021 – Certified Associate | Oracle |
@@ -131,5 +157,9 @@
 
 I'm always up for a conversation on agentic AI systems, enterprise integration architecture, or SRE-for-AI practices.
 
+<div align="center">
+
 [![LinkedIn](https://img.shields.io/badge/-Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/itspolagani)
 [![Email](https://img.shields.io/badge/-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:polagani.srinivasarao@gmail.com)
+
+</div>
