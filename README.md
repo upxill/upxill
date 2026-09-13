@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi 👋, I'm Srinivasarao Polagani
+# Hi 👋, I'm Srinivasarao Polagani 
 
 ### Principal Engineer (TLCP) · Agentic AI, MuleSoft & Cloud Integration Architect
 
