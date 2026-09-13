@@ -8,8 +8,8 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/itspolagani)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:polagani.srinivasarao@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/theagentforge)
-[![Profile Views](https://komarev.com/ghpvc/?username=theagentforge&style=for-the-badge&color=8E2DE2&label=PROFILE+VIEWS)](https://github.com/theagentforge)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/upxill)
+[![Profile Views](https://komarev.com/ghpvc/?username=upxill&style=for-the-badge&color=8E2DE2&label=PROFILE+VIEWS)](https://github.com/upxill)
 
 </div>
 
@@ -127,10 +127,10 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=theagentforge&show_icons=true&theme=default&hide_border=true&count_private=true" width="49%" alt="Srinivasarao's GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=theagentforge&layout=compact&theme=default&hide_border=true" width="30%" alt="Top languages" />
+<img src="https://github-readme-stats.vercel.app/api?username=upxill&show_icons=true&theme=default&hide_border=true&count_private=true" width="49%" alt="Srinivasarao's GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=upxill&layout=compact&theme=default&hide_border=true" width="30%" alt="Top languages" />
 
-<img src="https://streak-stats.demolab.com/?user=theagentforge&theme=default&hide_border=true" width="70%" alt="GitHub streak stats" />
+<img src="https://streak-stats.demolab.com/?user=upxill&theme=default&hide_border=true" width="70%" alt="GitHub streak stats" />
 
 </div>
 
