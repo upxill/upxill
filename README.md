@@ -2,7 +2,7 @@
 
 # Hi 👋, I'm Srinivasarao Polagani
 
-### Principal Engineer, Technical Leadership Career Path (TLCP) @ Optum · Leading Technical Direction & Mentoring Teams · Agentic AI, LLM Orchestration & Healthcare Integration
+### Principal Engineer, Technical Leadership Career Path (TLCP) @ Optum · Leading Technical Direction · Agentic AI, LLM Orchestration & Healthcare Integration
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-0B8F82?style=for-the-badge&logo=vercel&logoColor=white)](https://upxill.github.io/upxill/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/itspolagani)
