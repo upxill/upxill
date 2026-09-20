@@ -199,27 +199,15 @@ font-weight: 600;
 }
 
 /* ---------- About ---------- */
-.about-grid {
+.about-copy {
 margin-top: 28px;
-display: grid;
-grid-template-columns: 1.1fr 1fr;
-gap: 40px;
-align-items: start;
-}
-@media (max-width: 760px) { .about-grid { grid-template-columns: 1fr; } }
-.about-grid p { font-size: 16px; color: var(--text-muted); margin: 0 0 14px; }
-.about-grid p:last-child { margin-bottom: 0; }
-.about-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
-.about-list li {
+max-width: 760px;
 display: flex;
-gap: 12px;
-font-size: 14.5px;
-color: var(--text);
-padding-bottom: 12px;
-border-bottom: 1px solid var(--border);
+flex-direction: column;
+gap: 18px;
 }
-.about-list li:last-child { border-bottom: none; padding-bottom: 0; }
-.about-list .idx { font-family: "IBM Plex Mono", monospace; color: var(--accent); font-size: 13px; flex: none; padding-top: 1px; }
+.about-copy p { font-size: 16px; color: var(--text-muted); margin: 0; }
+.about-copy p strong { color: var(--text); font-weight: 600; }
 
 /* ---------- Focus panels ---------- */
 .panels {
@@ -415,20 +403,13 @@ font-family: "IBM Plex Mono", monospace;
 <section id="about">
 <div class="eyebrow"><span class="num">01</span> About</div>
 <h2 class="section-title">What I spend my time on</h2>
-<div class="about-grid">
-<div>
-<p>Most of my week splits between three things that turn out to depend on each other: setting technical direction and mentoring the engineers and teams around me, getting agentic AI systems from prototype to something a healthcare enterprise can actually run, and keeping the integration platforms underneath them fast, observable, and boring in the way production systems should be.</p>
-<p>Fifteen years of SRE discipline shapes how I approach all three — error budgets and observability aren't an afterthought bolted onto an AI system, they're the same standard I'd hold any critical service to, and the same standard I coach other engineers toward.</p>
-</div>
-<ul class="about-list">
-<li><span class="idx">01</span> Setting technical direction and mentoring ~10 engineers and teams as part of Optum's Technical Leadership Career Path</li>
-<li><span class="idx">02</span> Building multi-agent agentic AI workflows with Google ADK, LangChain, LangGraph &amp; Pydantic AI</li>
-<li><span class="idx">03</span> Implementing RAG pipelines with Chroma &amp; Vertex AI for enterprise clinical operations</li>
-<li><span class="idx">04</span> Architecting API-led integration on MuleSoft across 100+ APIs at 99.99% uptime</li>
-<li><span class="idx">05</span> Delivering cloud projects across GCP, AWS, and Azure with event-driven design</li>
-<li><span class="idx">06</span> Engineering Databricks / PySpark / Airflow pipelines unifying 50M+ member records</li>
-<li><span class="idx">07</span> Extending Kong AI Gateway to route embeddings, chat completions, reasoning API &amp; MCP/A2A traffic, with prompt governance</li>
-</ul>
+<div class="about-copy">
+<p>I build production AI systems and the enterprise integration platforms underneath them — the kind that have to survive HIPAA audits, not just demos.</p>
+<p><strong>Agentic AI &amp; LLM Orchestration.</strong> Building production multi-agent workflows with Google ADK, LangChain, and LangGraph. Implementing RAG pipelines with Chroma and Vertex AI — going well beyond proof-of-concept into HIPAA-compliant, enterprise-deployed AI systems serving real clinical operations teams. Hands-on with Pydantic AI and LLMOps tooling. Architecting AI Gateway patterns on Kong AI Gateway for safe LLM traffic routing — embeddings, chat completions, and reasoning API endpoints, plus MCP and A2A (agent-to-agent) protocol traffic — with prompt governance and model endpoint security in production.</p>
+<p><strong>Data Engineering for AI.</strong> Databricks and PySpark pipelines preparing and transforming structured healthcare data for retrieval and natural-language querying. Apache Airflow orchestration across multi-source data ingestion frameworks unifying records for 50M+ members. This is the unglamorous layer that makes the AI layer actually trustworthy.</p>
+<p><strong>MuleSoft &amp; API-Led Integration.</strong> MuleSoft (5x Certified: Platform Architect, Integration Architect, Developer), CloudHub 2.0, Runtime Fabric, and API-led connectivity across 100+ APIs and 50M+ daily transactions at 99.99% uptime. Camunda BPM/DMN process orchestration. EDI X12/HL7/FHIR healthcare data exchange across 40+ integration flows. API Gateway governance (Apigee, Kong AI Gateway, Kong LLM Gateway, MuleSoft API Manager) enforcing OAuth 2.0/JWT and reducing API incidents by ~40%.</p>
+<p><strong>Reliability Discipline, Applied to AI.</strong> 15+ years owning SLIs, SLOs, and error budgets for mission-critical platforms at 99.99% uptime. I bring that same discipline to AI systems — treating model endpoints, prompt pipelines, and agent workflows as production infrastructure with the observability (OpenTelemetry, Datadog, Splunk, Dynatrace, Grafana) and incident rigor that implies.</p>
+<p><strong>Technical Leadership &amp; Mentoring.</strong> As part of Optum's Technical Leadership Career Path, I set technical direction and lead architecture/design decisions for roughly 10 engineers and teams — spanning AI Gateway design, RAG pipeline architecture, and integration/reliability patterns. I lead complex integration efforts that require coordinating across multiple internal and external teams, and I mentor engineers on production-grade AI and integration practices so the standards I put in place hold up long after I've moved on to the next project.</p>
 </div>
 </section>
 
