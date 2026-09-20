@@ -2,7 +2,7 @@
 
 # Hi 👋, I'm Srinivasarao Polagani
 
-### Principal Engineer, Technical Leadership Career Path (TLCP) @ Optum · Agentic AI & LLM Gateway Architecture · MuleSoft 5x Certified
+### Principal Engineer, Technical Leadership Career Path (TLCP) @ Optum · Leading Technical Direction & Mentoring Teams · Agentic AI, LLM Orchestration & Healthcare Integration
 
 *I build production AI systems — and the enterprise integration platforms underneath them — that have to survive HIPAA audits, not just demos.*
 
