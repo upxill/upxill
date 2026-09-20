@@ -21,10 +21,11 @@ For the full background, focus areas, tech stack, and certifications, see my por
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=upxill&show_icons=true&theme=default&hide_border=true&count_private=true" width="49%" alt="Srinivasarao's GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=upxill&layout=compact&theme=default&hide_border=true" width="30%" alt="Top languages" />
-
 <img src="https://streak-stats.demolab.com/?user=upxill&theme=default&hide_border=true" width="70%" alt="GitHub streak stats" />
+
+<br><br>
+
+[![Followers](https://img.shields.io/github/followers/upxill?style=for-the-badge&label=FOLLOWERS&color=0B8F82)](https://github.com/upxill?tab=followers)
 
 </div>
 
