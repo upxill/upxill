@@ -1,8 +1,8 @@
 <div align="center">
 
-# Hi 👋, I'm Srinivasarao Polagani 
+# Hi 👋, I'm Srinivasarao Polagani
 
-### Principal Engineer (TLCP) · Agentic AI, MuleSoft & Cloud Integration Architect
+### Principal Engineer, Technical Leadership Career Path (TLCP) @ Optum · Agentic AI & LLM Gateway Architecture · MuleSoft 5x Certified
 
 *I build production AI systems — and the enterprise integration platforms underneath them — that have to survive HIPAA audits, not just demos.*
 
@@ -30,13 +30,14 @@
 
 ## 🚀 About Me
 
+- 🧭 Setting technical direction and mentoring **~10 engineers and teams** as part of Optum's **Technical Leadership Career Path** — architecture reviews, cross-team integration coordination, and standards that outlast any single project
 - 🤖 Building **multi-agent, agentic AI workflows** with **Google ADK, LangChain, LangGraph & Pydantic AI**
 - 🔍 Implementing **RAG pipelines** with **Chroma & Vertex AI** for real clinical-operations teams, at enterprise scale
 - 🔗 Architecting **API-led integration** on **MuleSoft** across 100+ APIs and 50M+ daily transactions at **99.99% uptime**
 - ☁️ Delivering **cloud & integration projects** across **GCP, AWS, and Azure** — CloudHub 2.0, Runtime Fabric, event-driven design with Kafka, Pub/Sub, and SQS/SNS
 - 🗃️ Engineering **Databricks / PySpark / Airflow** data pipelines unifying records for **50M+ members**
-- 🛡️ Designing **AI Gateway** patterns for safe LLM traffic routing, prompt governance & model endpoint security
-- 📊 Applying **15+ years of SRE discipline** (SLIs, SLOs, error budgets) to AI systems as production infrastructure
+- 🛡️ Extending **Kong AI Gateway** to route **embeddings, chat completions, reasoning API, and MCP/A2A (agent-to-agent)** protocol traffic — with prompt governance & model endpoint security
+- 📊 Applying **15+ years of SRE discipline** (SLIs, SLOs, error budgets) to AI systems — observability via OpenTelemetry, Datadog, Splunk, Dynatrace & Grafana
 
 <br>
 
@@ -50,7 +51,7 @@
 - Multi-agent workflows — Google ADK, LangChain, LangGraph
 - RAG pipelines — Chroma, Vertex AI
 - Pydantic AI, LLMOps tooling
-- AI Gateway / prompt governance / model endpoint security
+- Kong AI Gateway — embeddings, chat completions, reasoning API & MCP/A2A protocol routing, prompt governance, model endpoint security
 
 </td>
 <td width="50%" valign="top">
@@ -76,9 +77,20 @@
 
 ### 🟢 Reliability & Platform Engineering
 - SLIs, SLOs & error budgets for mission-critical platforms
-- Observability — OpenTelemetry, Datadog, Dynatrace, Grafana
+- Observability — OpenTelemetry, Datadog, Splunk, Dynatrace, Grafana
 - **GCP** Vertex AI/GKE/Pub/Sub · **AWS** Lambda/EKS/SQS · **Azure** AKS/Functions
 - Multi-cloud IaC & event-driven design at scale
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 🟡 Technical Leadership & Mentoring
+- Set technical direction for ~10 engineers and teams as part of Optum's Technical Leadership Career Path
+- Lead architecture/design reviews and act as escalation point for complex, cross-team technical decisions
+- Lead complex integration efforts requiring coordination across multiple internal and external teams
+- Mentor engineers on production-grade AI and integration engineering practices
 
 </td>
 </tr>
@@ -115,6 +127,7 @@
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![Dynatrace](https://img.shields.io/badge/Dynatrace-1496FF?style=flat-square&logo=dynatrace&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
 
 **Languages**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=FFD43B)

@@ -6,408 +6,416 @@
 <title>Srinivasarao Polagani — Portfolio</title>
 <meta name="description" content="Portfolio for a Principal Engineer specializing in agentic AI systems and enterprise MuleSoft/cloud integration.">
 <style>
-  :root {
-    --bg: #F3F6FB;
-    --surface: #FFFFFF;
-    --surface-2: #EEF2F8;
-    --border: #D9E1EC;
-    --text: #0F1826;
-    --text-muted: #57647C;
-    --accent: #0B8F82;
-    --accent-soft: rgba(11,143,130,0.10);
-    --accent-2: #A9660A;
-    --accent-2-soft: rgba(169,102,10,0.10);
-    --shadow: 0 1px 2px rgba(16,24,40,0.04), 0 8px 24px rgba(16,24,40,0.06);
-    --radius: 10px;
-  }
+:root {
+--bg: #F3F6FB;
+--surface: #FFFFFF;
+--surface-2: #EEF2F8;
+--border: #D9E1EC;
+--text: #0F1826;
+--text-muted: #57647C;
+--accent: #0B8F82;
+--accent-soft: rgba(11,143,130,0.10);
+--accent-2: #A9660A;
+--accent-2-soft: rgba(169,102,10,0.10);
+--shadow: 0 1px 2px rgba(16,24,40,0.04), 0 8px 24px rgba(16,24,40,0.06);
+--radius: 10px;
+}
 
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --bg: #0A111F;
-      --surface: #111B2E;
-      --surface-2: #16233B;
-      --border: #263654;
-      --text: #E9EEF7;
-      --text-muted: #92A3BD;
-      --accent: #4FD7C6;
-      --accent-soft: rgba(79,215,198,0.14);
-      --accent-2: #E8A548;
-      --accent-2-soft: rgba(232,165,72,0.14);
-      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 12px 32px rgba(0,0,0,0.35);
-    }
-  }
+@media (prefers-color-scheme: dark) {
+:root:not([data-theme="light"]) {
+--bg: #0A111F;
+--surface: #111B2E;
+--surface-2: #16233B;
+--border: #263654;
+--text: #E9EEF7;
+--text-muted: #92A3BD;
+--accent: #4FD7C6;
+--accent-soft: rgba(79,215,198,0.14);
+--accent-2: #E8A548;
+--accent-2-soft: rgba(232,165,72,0.14);
+--shadow: 0 1px 2px rgba(0,0,0,0.3), 0 12px 32px rgba(0,0,0,0.35);
+}
+}
 
-  :root[data-theme="dark"] {
-    --bg: #0A111F;
-    --surface: #111B2E;
-    --surface-2: #16233B;
-    --border: #263654;
-    --text: #E9EEF7;
-    --text-muted: #92A3BD;
-    --accent: #4FD7C6;
-    --accent-soft: rgba(79,215,198,0.14);
-    --accent-2: #E8A548;
-    --accent-2-soft: rgba(232,165,72,0.14);
-    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 12px 32px rgba(0,0,0,0.35);
-  }
+:root[data-theme="dark"] {
+--bg: #0A111F;
+--surface: #111B2E;
+--surface-2: #16233B;
+--border: #263654;
+--text: #E9EEF7;
+--text-muted: #92A3BD;
+--accent: #4FD7C6;
+--accent-soft: rgba(79,215,198,0.14);
+--accent-2: #E8A548;
+--accent-2-soft: rgba(232,165,72,0.14);
+--shadow: 0 1px 2px rgba(0,0,0,0.3), 0 12px 32px rgba(0,0,0,0.35);
+}
 
-  * { box-sizing: border-box; }
+* { box-sizing: border-box; }
 
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--text);
-    font-family: "IBM Plex Sans", -apple-system, "Segoe UI", sans-serif;
-    line-height: 1.55;
-    -webkit-font-smoothing: antialiased;
-  }
+body {
+margin: 0;
+background: var(--bg);
+color: var(--text);
+font-family: "IBM Plex Sans", -apple-system, "Segoe UI", sans-serif;
+line-height: 1.55;
+-webkit-font-smoothing: antialiased;
+}
 
-  h1, h2, h3 { font-family: "Sora", "IBM Plex Sans", sans-serif; text-wrap: balance; margin: 0; }
+h1, h2, h3 { font-family: "Sora", "IBM Plex Sans", sans-serif; text-wrap: balance; margin: 0; }
 
-  .mono {
-    font-family: "IBM Plex Mono", ui-monospace, monospace;
-    font-variant-numeric: tabular-nums;
-  }
+.mono {
+font-family: "IBM Plex Mono", ui-monospace, monospace;
+font-variant-numeric: tabular-nums;
+}
 
-  a { color: inherit; }
+a { color: inherit; }
 
-  .wrap {
-    max-width: 1080px;
-    margin: 0 auto;
-    padding: 0 28px;
-  }
+.wrap {
+max-width: 1080px;
+margin: 0 auto;
+padding: 0 28px;
+}
 
-  /* ---------- Nav ---------- */
-  .nav {
-    position: sticky;
-    top: 0;
-    z-index: 20;
-    background: color-mix(in srgb, var(--bg) 88%, transparent);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid var(--border);
-  }
-  .nav-inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 16px 28px;
-    max-width: 1080px;
-    margin: 0 auto;
-  }
-  .mark {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-family: "Sora", sans-serif;
-    font-weight: 600;
-    font-size: 15px;
-    letter-spacing: 0.01em;
-  }
-  .mark-dot {
-    width: 9px; height: 9px; border-radius: 50%;
-    background: var(--accent);
-    box-shadow: 0 0 0 4px var(--accent-soft);
-  }
-  .nav-links {
-    display: flex;
-    gap: 28px;
-    font-size: 13.5px;
-    color: var(--text-muted);
-  }
-  .nav-links a { text-decoration: none; transition: color .15s ease; }
-  .nav-links a:hover, .nav-links a:focus-visible { color: var(--accent); }
-  @media (max-width: 640px) { .nav-links { display: none; } }
+/* ---------- Nav ---------- */
+.nav {
+position: sticky;
+top: 0;
+z-index: 20;
+background: color-mix(in srgb, var(--bg) 88%, transparent);
+backdrop-filter: blur(10px);
+border-bottom: 1px solid var(--border);
+}
+.nav-inner {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 16px 28px;
+max-width: 1080px;
+margin: 0 auto;
+}
+.mark {
+display: flex;
+align-items: center;
+gap: 10px;
+font-family: "Sora", sans-serif;
+font-weight: 600;
+font-size: 15px;
+letter-spacing: 0.01em;
+}
+.mark-dot {
+width: 9px; height: 9px; border-radius: 50%;
+background: var(--accent);
+box-shadow: 0 0 0 4px var(--accent-soft);
+}
+.nav-links {
+display: flex;
+gap: 28px;
+font-size: 13.5px;
+color: var(--text-muted);
+}
+.nav-links a { text-decoration: none; transition: color .15s ease; }
+.nav-links a:hover, .nav-links a:focus-visible { color: var(--accent); }
+@media (max-width: 640px) { .nav-links { display: none; } }
 
-  /* ---------- Hero ---------- */
-  .hero { padding: 76px 0 40px; }
-  .status-pill {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 6px 12px 6px 10px;
-    border: 1px solid var(--border);
-    border-radius: 999px;
-    background: var(--surface);
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 11.5px;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    box-shadow: var(--shadow);
-  }
-  .pulse {
-    width: 8px; height: 8px; border-radius: 50%;
-    background: var(--accent);
-    position: relative;
-    flex: none;
-  }
-  .pulse::after {
-    content: "";
-    position: absolute; inset: -5px;
-    border-radius: 50%;
-    border: 1.5px solid var(--accent);
-    animation: pulse 2.2s ease-out infinite;
-  }
-  @media (prefers-reduced-motion: reduce) { .pulse::after { animation: none; opacity: .4; } }
-  @keyframes pulse {
-    0% { transform: scale(0.4); opacity: .9; }
-    100% { transform: scale(1.9); opacity: 0; }
-  }
+/* ---------- Hero ---------- */
+.hero { padding: 76px 0 40px; }
+.status-pill {
+display: inline-flex;
+align-items: center;
+gap: 8px;
+padding: 6px 12px 6px 10px;
+border: 1px solid var(--border);
+border-radius: 999px;
+background: var(--surface);
+font-family: "IBM Plex Mono", monospace;
+font-size: 11.5px;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--text-muted);
+box-shadow: var(--shadow);
+}
+.pulse {
+width: 8px; height: 8px; border-radius: 50%;
+background: var(--accent);
+position: relative;
+flex: none;
+}
+.pulse::after {
+content: "";
+position: absolute; inset: -5px;
+border-radius: 50%;
+border: 1.5px solid var(--accent);
+animation: pulse 2.2s ease-out infinite;
+}
+@media (prefers-reduced-motion: reduce) { .pulse::after { animation: none; opacity: .4; } }
+@keyframes pulse {
+0% { transform: scale(0.4); opacity: .9; }
+100% { transform: scale(1.9); opacity: 0; }
+}
 
-  .hero h1 {
-    margin-top: 22px;
-    font-size: clamp(34px, 5.4vw, 54px);
-    font-weight: 600;
-    letter-spacing: -0.01em;
-  }
-  .hero .role {
-    margin-top: 10px;
-    font-size: clamp(16px, 2.2vw, 20px);
-    color: var(--accent);
-    font-weight: 500;
-  }
-  .hero .tagline {
-    margin-top: 18px;
-    max-width: 62ch;
-    font-size: 17px;
-    color: var(--text-muted);
-  }
+.hero h1 {
+margin-top: 22px;
+font-size: clamp(34px, 5.4vw, 54px);
+font-weight: 600;
+letter-spacing: -0.01em;
+}
+.hero .role {
+margin-top: 10px;
+font-size: clamp(16px, 2.2vw, 20px);
+color: var(--accent);
+font-weight: 500;
+}
+.hero .tagline {
+margin-top: 18px;
+max-width: 62ch;
+font-size: 17px;
+color: var(--text-muted);
+}
 
-  /* ---------- Status strip ---------- */
-  .strip {
-    margin-top: 40px;
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    background: var(--surface);
-    box-shadow: var(--shadow);
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-  @media (max-width: 700px) { .strip { grid-template-columns: repeat(2, 1fr); } }
-  .stat {
-    padding: 20px 22px;
-    border-right: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
-  }
-  .strip .stat:nth-child(3n) { border-right: none; }
-  @media (max-width: 700px) { .strip .stat:nth-child(3n) { border-right: 1px solid var(--border); } .strip .stat:nth-child(2n) { border-right: none; } }
-  .strip .stat:nth-last-child(-n+3) { border-bottom: none; }
-  .stat-value {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 21px;
-    font-weight: 600;
-    color: var(--text);
-  }
-  .stat-label {
-    margin-top: 4px;
-    font-size: 12px;
-    color: var(--text-muted);
-    letter-spacing: 0.02em;
-  }
+/* ---------- Status strip ---------- */
+.strip {
+margin-top: 40px;
+border: 1px solid var(--border);
+border-radius: var(--radius);
+background: var(--surface);
+box-shadow: var(--shadow);
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 700px) { .strip { grid-template-columns: repeat(2, 1fr); } }
+.stat {
+padding: 20px 22px;
+border-right: 1px solid var(--border);
+border-bottom: 1px solid var(--border);
+}
+.strip .stat:nth-child(3n) { border-right: none; }
+@media (max-width: 700px) { .strip .stat:nth-child(3n) { border-right: 1px solid var(--border); } .strip .stat:nth-child(2n) { border-right: none; } }
+.strip .stat:nth-last-child(-n+3) { border-bottom: none; }
+.stat-value {
+font-family: "IBM Plex Mono", monospace;
+font-size: 21px;
+font-weight: 600;
+color: var(--text);
+}
+.stat-label {
+margin-top: 4px;
+font-size: 12px;
+color: var(--text-muted);
+letter-spacing: 0.02em;
+}
 
-  /* ---------- Section scaffolding ---------- */
-  section { padding: 64px 0; border-top: 1px solid var(--border); }
-  .eyebrow {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 12px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--accent);
-  }
-  .eyebrow .num { color: var(--text-muted); }
-  .eyebrow::after {
-    content: "";
-    flex: 1;
-    height: 1px;
-    background: var(--border);
-  }
-  .section-title {
-    margin-top: 14px;
-    font-size: clamp(22px, 3vw, 28px);
-    font-weight: 600;
-  }
+/* ---------- Section scaffolding ---------- */
+section { padding: 64px 0; border-top: 1px solid var(--border); }
+.eyebrow {
+display: flex;
+align-items: center;
+gap: 10px;
+font-family: "IBM Plex Mono", monospace;
+font-size: 12px;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+color: var(--accent);
+}
+.eyebrow .num { color: var(--text-muted); }
+.eyebrow::after {
+content: "";
+flex: 1;
+height: 1px;
+background: var(--border);
+}
+.section-title {
+margin-top: 14px;
+font-size: clamp(22px, 3vw, 28px);
+font-weight: 600;
+}
 
-  /* ---------- About ---------- */
-  .about-grid {
-    margin-top: 28px;
-    display: grid;
-    grid-template-columns: 1.1fr 1fr;
-    gap: 40px;
-    align-items: start;
-  }
-  @media (max-width: 760px) { .about-grid { grid-template-columns: 1fr; } }
-  .about-grid p { font-size: 16px; color: var(--text-muted); margin: 0 0 14px; }
-  .about-grid p:last-child { margin-bottom: 0; }
-  .about-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
-  .about-list li {
-    display: flex;
-    gap: 12px;
-    font-size: 14.5px;
-    color: var(--text);
-    padding-bottom: 12px;
-    border-bottom: 1px solid var(--border);
-  }
-  .about-list li:last-child { border-bottom: none; padding-bottom: 0; }
-  .about-list .idx { font-family: "IBM Plex Mono", monospace; color: var(--accent); font-size: 13px; flex: none; padding-top: 1px; }
+/* ---------- About ---------- */
+.about-grid {
+margin-top: 28px;
+display: grid;
+grid-template-columns: 1.1fr 1fr;
+gap: 40px;
+align-items: start;
+}
+@media (max-width: 760px) { .about-grid { grid-template-columns: 1fr; } }
+.about-grid p { font-size: 16px; color: var(--text-muted); margin: 0 0 14px; }
+.about-grid p:last-child { margin-bottom: 0; }
+.about-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+.about-list li {
+display: flex;
+gap: 12px;
+font-size: 14.5px;
+color: var(--text);
+padding-bottom: 12px;
+border-bottom: 1px solid var(--border);
+}
+.about-list li:last-child { border-bottom: none; padding-bottom: 0; }
+.about-list .idx { font-family: "IBM Plex Mono", monospace; color: var(--accent); font-size: 13px; flex: none; padding-top: 1px; }
 
-  /* ---------- Focus panels ---------- */
-  .panels {
-    margin-top: 28px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
-  }
-  @media (max-width: 760px) { .panels { grid-template-columns: 1fr; } }
-  .panel {
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    background: var(--surface);
-    padding: 24px 26px;
-    box-shadow: var(--shadow);
-  }
-  .panel h3 { font-size: 16.5px; font-weight: 600; }
-  .panel-tag {
-    display: inline-block;
-    margin-bottom: 10px;
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 10.5px;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--accent);
-    background: var(--accent-soft);
-    padding: 3px 8px;
-    border-radius: 4px;
-  }
-  .panel ul {
-    margin: 14px 0 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 9px;
-  }
-  .panel ul li {
-    font-size: 14px;
-    color: var(--text-muted);
-    padding-left: 15px;
-    position: relative;
-  }
-  .panel ul li::before {
-    content: "";
-    position: absolute;
-    left: 0; top: 7px;
-    width: 5px; height: 5px;
-    border-radius: 1px;
-    background: var(--border);
-  }
+/* ---------- Focus panels ---------- */
+.panels {
+margin-top: 28px;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 16px;
+}
+@media (max-width: 760px) { .panels { grid-template-columns: 1fr; } }
+.panel {
+border: 1px solid var(--border);
+border-radius: var(--radius);
+background: var(--surface);
+padding: 24px 26px;
+box-shadow: var(--shadow);
+}
+.panel.wide { grid-column: 1 / -1; }
+.panel h3 { font-size: 16.5px; font-weight: 600; }
+.panel-tag {
+display: inline-block;
+margin-bottom: 10px;
+font-family: "IBM Plex Mono", monospace;
+font-size: 10.5px;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--accent);
+background: var(--accent-soft);
+padding: 3px 8px;
+border-radius: 4px;
+}
+.panel ul {
+margin: 14px 0 0;
+padding: 0;
+list-style: none;
+display: flex;
+flex-direction: column;
+gap: 9px;
+}
+.panel ul li {
+font-size: 14px;
+color: var(--text-muted);
+padding-left: 15px;
+position: relative;
+}
+.panel ul li::before {
+content: "";
+position: absolute;
+left: 0; top: 7px;
+width: 5px; height: 5px;
+border-radius: 1px;
+background: var(--border);
+}
+.panel.wide ul {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+column-gap: 24px;
+row-gap: 9px;
+}
+@media (max-width: 640px) { .panel.wide ul { grid-template-columns: 1fr; } }
 
-  /* ---------- Stack ---------- */
-  .stack-groups { margin-top: 28px; display: flex; flex-direction: column; gap: 22px; }
-  .stack-row {
-    display: grid;
-    grid-template-columns: 220px 1fr;
-    gap: 20px;
-    padding: 16px 0;
-    border-bottom: 1px solid var(--border);
-  }
-  .stack-row:last-child { border-bottom: none; }
-  @media (max-width: 640px) { .stack-row { grid-template-columns: 1fr; gap: 10px; } }
-  .stack-row h4 {
-    margin: 0;
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-  }
-  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
-  .chip {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 12.5px;
-    padding: 5px 11px;
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    background: var(--surface-2);
-    color: var(--text);
-  }
+/* ---------- Stack ---------- */
+.stack-groups { margin-top: 28px; display: flex; flex-direction: column; gap: 22px; }
+.stack-row {
+display: grid;
+grid-template-columns: 220px 1fr;
+gap: 20px;
+padding: 16px 0;
+border-bottom: 1px solid var(--border);
+}
+.stack-row:last-child { border-bottom: none; }
+@media (max-width: 640px) { .stack-row { grid-template-columns: 1fr; gap: 10px; } }
+.stack-row h4 {
+margin: 0;
+font-size: 13px;
+font-weight: 600;
+color: var(--text-muted);
+text-transform: uppercase;
+letter-spacing: 0.03em;
+}
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+font-family: "IBM Plex Mono", monospace;
+font-size: 12.5px;
+padding: 5px 11px;
+border: 1px solid var(--border);
+border-radius: 6px;
+background: var(--surface-2);
+color: var(--text);
+}
 
-  /* ---------- Certifications ---------- */
-  .certs {
-    margin-top: 28px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-  }
-  @media (max-width: 700px) { .certs { grid-template-columns: 1fr; } }
-  .cert {
-    display: flex;
-    gap: 14px;
-    align-items: flex-start;
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    background: var(--surface);
-    padding: 16px 18px;
-  }
-  .cert-badge {
-    flex: none;
-    width: 30px; height: 30px;
-    border-radius: 7px;
-    background: var(--accent-2-soft);
-    color: var(--accent-2);
-    display: flex; align-items: center; justify-content: center;
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 12px;
-    font-weight: 600;
-  }
-  .cert-name { font-size: 14px; font-weight: 500; }
-  .cert-issuer { font-size: 12.5px; color: var(--text-muted); margin-top: 2px; }
+/* ---------- Certifications ---------- */
+.certs {
+margin-top: 28px;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 12px;
+}
+@media (max-width: 700px) { .certs { grid-template-columns: 1fr; } }
+.cert {
+display: flex;
+gap: 14px;
+align-items: flex-start;
+border: 1px solid var(--border);
+border-radius: var(--radius);
+background: var(--surface);
+padding: 16px 18px;
+}
+.cert-badge {
+flex: none;
+width: 30px; height: 30px;
+border-radius: 7px;
+background: var(--accent-2-soft);
+color: var(--accent-2);
+display: flex; align-items: center; justify-content: center;
+font-family: "IBM Plex Mono", monospace;
+font-size: 12px;
+font-weight: 600;
+}
+.cert-name { font-size: 14px; font-weight: 500; }
+.cert-issuer { font-size: 12.5px; color: var(--text-muted); margin-top: 2px; }
 
-  /* ---------- Connect ---------- */
-  .connect {
-    margin-top: 26px;
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    background: var(--surface);
-    box-shadow: var(--shadow);
-    padding: 34px 36px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 24px;
-    flex-wrap: wrap;
-  }
-  .connect p { margin: 0; max-width: 46ch; color: var(--text-muted); font-size: 15px; }
-  .connect-links { display: flex; gap: 10px; flex-wrap: wrap; }
-  .btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 10px 16px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 500;
-    border: 1px solid var(--border);
-    transition: border-color .15s ease, transform .15s ease;
-  }
-  .btn:hover, .btn:focus-visible { border-color: var(--accent); transform: translateY(-1px); }
-  .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
-  .btn.primary:hover { opacity: 0.92; }
+/* ---------- Connect ---------- */
+.connect {
+margin-top: 26px;
+border: 1px solid var(--border);
+border-radius: var(--radius);
+background: var(--surface);
+box-shadow: var(--shadow);
+padding: 34px 36px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 24px;
+flex-wrap: wrap;
+}
+.connect p { margin: 0; max-width: 46ch; color: var(--text-muted); font-size: 15px; }
+.connect-links { display: flex; gap: 10px; flex-wrap: wrap; }
+.btn {
+display: inline-flex;
+align-items: center;
+gap: 8px;
+padding: 10px 16px;
+border-radius: 8px;
+text-decoration: none;
+font-size: 14px;
+font-weight: 500;
+border: 1px solid var(--border);
+transition: border-color .15s ease, transform .15s ease;
+}
+.btn:hover, .btn:focus-visible { border-color: var(--accent); transform: translateY(-1px); }
+.btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+.btn.primary:hover { opacity: 0.92; }
 
-  footer {
-    padding: 30px 0 50px;
-    text-align: center;
-    font-size: 12.5px;
-    color: var(--text-muted);
-    font-family: "IBM Plex Mono", monospace;
-  }
+footer {
+padding: 30px 0 50px;
+text-align: center;
+font-size: 12.5px;
+color: var(--text-muted);
+font-family: "IBM Plex Mono", monospace;
+}
 
-  @media (prefers-reduced-motion: reduce) {
-    * { animation-duration: 0.001ms !important; }
-  }
+@media (prefers-reduced-motion: reduce) {
+* { animation-duration: 0.001ms !important; }
+}
 </style>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -415,169 +423,180 @@
 </head>
 <body>
 <nav class="nav">
-  <div class="nav-inner">
-    <div class="mark"><span class="mark-dot"></span> Srinivasarao Polagani</div>
-    <div class="nav-links">
-      <a href="#about">About</a>
-      <a href="#focus">Focus Areas</a>
-      <a href="#stack">Stack</a>
-      <a href="#certifications">Certifications</a>
-      <a href="#connect">Connect</a>
-    </div>
-  </div>
+<div class="nav-inner">
+<div class="mark"><span class="mark-dot"></span> Srinivasarao Polagani</div>
+<div class="nav-links">
+<a href="#about">About</a>
+<a href="#focus">Focus Areas</a>
+<a href="#stack">Stack</a>
+<a href="#certifications">Certifications</a>
+<a href="#connect">Connect</a>
+</div>
+</div>
 </nav>
 
 <main class="wrap">
 
-  <section class="hero" style="border-top:none;">
-    <span class="status-pill"><span class="pulse"></span> uptime 99.99% &middot; 100+ apis in production</span>
-    <h1>Srinivasarao Polagani</h1>
-    <div class="role">Principal Engineer (TLCP) &middot; Agentic AI, MuleSoft &amp; Cloud Integration Architect</div>
-    <p class="tagline">I build production AI systems — and the enterprise integration platforms underneath them — that have to survive HIPAA audits, not just demos.</p>
+<section class="hero" style="border-top:none;">
+<span class="status-pill"><span class="pulse"></span> uptime 99.99% &middot; 100+ apis in production</span>
+<h1>Srinivasarao Polagani</h1>
+<div class="role">Principal Engineer, Technical Leadership Career Path (TLCP) &middot; Agentic AI &amp; LLM Gateway Architecture &middot; MuleSoft 5x Certified</div>
+<p class="tagline">I build production AI systems — and the enterprise integration platforms underneath them — that have to survive HIPAA audits, not just demos.</p>
 
-    <div class="strip">
-      <div class="stat"><div class="stat-value mono">100+</div><div class="stat-label">APIs in production</div></div>
-      <div class="stat"><div class="stat-value mono">50M+</div><div class="stat-label">Daily transactions</div></div>
-      <div class="stat"><div class="stat-value mono">99.99%</div><div class="stat-label">Uptime SLA</div></div>
-      <div class="stat"><div class="stat-value mono">50M+</div><div class="stat-label">Member records unified</div></div>
-      <div class="stat"><div class="stat-value mono">5x</div><div class="stat-label">MuleSoft Certified Architect</div></div>
-      <div class="stat"><div class="stat-value mono">15+ yrs</div><div class="stat-label">SRE experience</div></div>
-    </div>
-  </section>
+<div class="strip">
+<div class="stat"><div class="stat-value mono">100+</div><div class="stat-label">APIs in production</div></div>
+<div class="stat"><div class="stat-value mono">50M+</div><div class="stat-label">Daily transactions</div></div>
+<div class="stat"><div class="stat-value mono">99.99%</div><div class="stat-label">Uptime SLA</div></div>
+<div class="stat"><div class="stat-value mono">50M+</div><div class="stat-label">Member records unified</div></div>
+<div class="stat"><div class="stat-value mono">5x</div><div class="stat-label">MuleSoft Certified Architect</div></div>
+<div class="stat"><div class="stat-value mono">15+ yrs</div><div class="stat-label">SRE experience</div></div>
+</div>
+</section>
 
-  <section id="about">
-    <div class="eyebrow"><span class="num">01</span> About</div>
-    <h2 class="section-title">What I spend my time on</h2>
-    <div class="about-grid">
-      <div>
-        <p>Most of my week splits between two things that turn out to depend on each other: getting agentic AI systems from prototype to something a healthcare enterprise can actually run, and keeping the integration platforms underneath them fast, observable, and boring in the way production systems should be.</p>
-        <p>Fifteen years of SRE discipline shapes how I approach both — error budgets and observability aren't an afterthought bolted onto an AI system, they're the same standard I'd hold any critical service to.</p>
-      </div>
-      <ul class="about-list">
-        <li><span class="idx">01</span> Building multi-agent agentic AI workflows with Google ADK, LangChain, LangGraph &amp; Pydantic AI</li>
-        <li><span class="idx">02</span> Implementing RAG pipelines with Chroma &amp; Vertex AI for enterprise clinical operations</li>
-        <li><span class="idx">03</span> Architecting API-led integration on MuleSoft across 100+ APIs at 99.99% uptime</li>
-        <li><span class="idx">04</span> Delivering cloud projects across GCP, AWS, and Azure with event-driven design</li>
-        <li><span class="idx">05</span> Engineering Databricks / PySpark / Airflow pipelines unifying 50M+ member records</li>
-        <li><span class="idx">06</span> Designing AI Gateway patterns for safe LLM traffic routing and prompt governance</li>
-      </ul>
-    </div>
-  </section>
+<section id="about">
+<div class="eyebrow"><span class="num">01</span> About</div>
+<h2 class="section-title">What I spend my time on</h2>
+<div class="about-grid">
+<div>
+<p>Most of my week splits between three things that turn out to depend on each other: setting technical direction and mentoring the engineers and teams around me, getting agentic AI systems from prototype to something a healthcare enterprise can actually run, and keeping the integration platforms underneath them fast, observable, and boring in the way production systems should be.</p>
+<p>Fifteen years of SRE discipline shapes how I approach all three — error budgets and observability aren't an afterthought bolted onto an AI system, they're the same standard I'd hold any critical service to, and the same standard I coach other engineers toward.</p>
+</div>
+<ul class="about-list">
+<li><span class="idx">01</span> Setting technical direction and mentoring ~10 engineers and teams as part of Optum's Technical Leadership Career Path</li>
+<li><span class="idx">02</span> Building multi-agent agentic AI workflows with Google ADK, LangChain, LangGraph &amp; Pydantic AI</li>
+<li><span class="idx">03</span> Implementing RAG pipelines with Chroma &amp; Vertex AI for enterprise clinical operations</li>
+<li><span class="idx">04</span> Architecting API-led integration on MuleSoft across 100+ APIs at 99.99% uptime</li>
+<li><span class="idx">05</span> Delivering cloud projects across GCP, AWS, and Azure with event-driven design</li>
+<li><span class="idx">06</span> Engineering Databricks / PySpark / Airflow pipelines unifying 50M+ member records</li>
+<li><span class="idx">07</span> Extending Kong AI Gateway to route embeddings, chat completions, reasoning API &amp; MCP/A2A traffic, with prompt governance</li>
+</ul>
+</div>
+</section>
 
-  <section id="focus">
-    <div class="eyebrow"><span class="num">02</span> Core Focus Areas</div>
-    <h2 class="section-title">Where the depth is</h2>
-    <div class="panels">
-      <div class="panel">
-        <span class="panel-tag">AI Systems</span>
-        <h3>Agentic AI &amp; LLM Orchestration</h3>
-        <ul>
-          <li>Multi-agent workflows — Google ADK, LangChain, LangGraph</li>
-          <li>RAG pipelines — Chroma, Vertex AI</li>
-          <li>Pydantic AI, LLMOps tooling</li>
-          <li>AI Gateway / prompt governance / model endpoint security</li>
-        </ul>
-      </div>
-      <div class="panel">
-        <span class="panel-tag">Data</span>
-        <h3>Data Engineering for AI</h3>
-        <ul>
-          <li>Databricks &amp; PySpark for structured healthcare data</li>
-          <li>Apache Airflow multi-source ingestion frameworks</li>
-          <li>Confluent Kafka event-driven architecture, sub-100ms latency</li>
-        </ul>
-      </div>
-      <div class="panel">
-        <span class="panel-tag">Integration</span>
-        <h3>MuleSoft &amp; API-Led Integration</h3>
-        <ul>
-          <li>MuleSoft (5x Certified Architect) — CloudHub 2.0, Runtime Fabric</li>
-          <li>Camunda BPM/DMN process orchestration</li>
-          <li>EDI X12 / HL7 / FHIR healthcare data exchange</li>
-          <li>API Gateway governance — Apigee, Kong, MuleSoft API Manager</li>
-        </ul>
-      </div>
-      <div class="panel">
-        <span class="panel-tag">Reliability</span>
-        <h3>Reliability &amp; Platform Engineering</h3>
-        <ul>
-          <li>SLIs, SLOs &amp; error budgets for mission-critical platforms</li>
-          <li>Observability — OpenTelemetry, Datadog, Dynatrace, Grafana</li>
-          <li>GCP Vertex AI/GKE/Pub/Sub · AWS Lambda/EKS/SQS · Azure AKS/Functions</li>
-          <li>Multi-cloud IaC &amp; event-driven design at scale</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+<section id="focus">
+<div class="eyebrow"><span class="num">02</span> Core Focus Areas</div>
+<h2 class="section-title">Where the depth is</h2>
+<div class="panels">
+<div class="panel">
+<span class="panel-tag">AI Systems</span>
+<h3>Agentic AI &amp; LLM Orchestration</h3>
+<ul>
+<li>Multi-agent workflows — Google ADK, LangChain, LangGraph</li>
+<li>RAG pipelines — Chroma, Vertex AI</li>
+<li>Pydantic AI, LLMOps tooling</li>
+<li>Kong AI Gateway — embeddings, chat completions, reasoning API &amp; MCP/A2A protocol routing, prompt governance, model endpoint security</li>
+</ul>
+</div>
+<div class="panel">
+<span class="panel-tag">Data</span>
+<h3>Data Engineering for AI</h3>
+<ul>
+<li>Databricks &amp; PySpark for structured healthcare data</li>
+<li>Apache Airflow multi-source ingestion frameworks</li>
+<li>Confluent Kafka event-driven architecture, sub-100ms latency</li>
+</ul>
+</div>
+<div class="panel">
+<span class="panel-tag">Integration</span>
+<h3>MuleSoft &amp; API-Led Integration</h3>
+<ul>
+<li>MuleSoft (5x Certified Architect) — CloudHub 2.0, Runtime Fabric</li>
+<li>Camunda BPM/DMN process orchestration</li>
+<li>EDI X12 / HL7 / FHIR healthcare data exchange</li>
+<li>API Gateway governance — Apigee, Kong, MuleSoft API Manager</li>
+</ul>
+</div>
+<div class="panel">
+<span class="panel-tag">Reliability</span>
+<h3>Reliability &amp; Platform Engineering</h3>
+<ul>
+<li>SLIs, SLOs &amp; error budgets for mission-critical platforms</li>
+<li>Observability — OpenTelemetry, Datadog, Splunk, Dynatrace, Grafana</li>
+<li>GCP Vertex AI/GKE/Pub/Sub · AWS Lambda/EKS/SQS · Azure AKS/Functions</li>
+<li>Multi-cloud IaC &amp; event-driven design at scale</li>
+</ul>
+</div>
+<div class="panel wide">
+<span class="panel-tag">Leadership</span>
+<h3>Technical Leadership &amp; Mentoring</h3>
+<ul>
+<li>Set technical direction for ~10 engineers and teams as part of Optum's Technical Leadership Career Path</li>
+<li>Lead architecture/design reviews and act as escalation point for complex, cross-team technical decisions</li>
+<li>Lead complex integration efforts requiring coordination across multiple internal and external teams</li>
+<li>Mentor engineers on production-grade AI and integration engineering practices</li>
+</ul>
+</div>
+</div>
+</section>
 
-  <section id="stack">
-    <div class="eyebrow"><span class="num">03</span> Tech Stack</div>
-    <h2 class="section-title">Tools in regular use</h2>
-    <div class="stack-groups">
-      <div class="stack-row">
-        <h4>Integration &amp; Orchestration</h4>
-        <div class="chips">
-          <span class="chip">MuleSoft</span><span class="chip">Apache Kafka</span><span class="chip">Camunda</span><span class="chip">Oracle SOA</span><span class="chip">Workato</span><span class="chip">Dell Boomi</span>
-        </div>
-      </div>
-      <div class="stack-row">
-        <h4>AI / Agentic</h4>
-        <div class="chips">
-          <span class="chip">LangChain</span><span class="chip">LangGraph</span><span class="chip">Google ADK</span><span class="chip">Amazon Bedrock</span><span class="chip">Vertex AI</span>
-        </div>
-      </div>
-      <div class="stack-row">
-        <h4>Cloud</h4>
-        <div class="chips">
-          <span class="chip">GCP</span><span class="chip">AWS</span><span class="chip">Azure</span><span class="chip">Docker</span><span class="chip">Kubernetes</span>
-        </div>
-      </div>
-      <div class="stack-row">
-        <h4>Data &amp; Observability</h4>
-        <div class="chips">
-          <span class="chip">Databricks</span><span class="chip">Airflow</span><span class="chip">Grafana</span><span class="chip">Dynatrace</span>
-        </div>
-      </div>
-      <div class="stack-row">
-        <h4>Languages</h4>
-        <div class="chips">
-          <span class="chip">Python</span><span class="chip">Java</span><span class="chip">Go</span>
-        </div>
-      </div>
-    </div>
-  </section>
+<section id="stack">
+<div class="eyebrow"><span class="num">03</span> Tech Stack</div>
+<h2 class="section-title">Tools in regular use</h2>
+<div class="stack-groups">
+<div class="stack-row">
+<h4>Integration &amp; Orchestration</h4>
+<div class="chips">
+<span class="chip">MuleSoft</span><span class="chip">Apache Kafka</span><span class="chip">Camunda</span><span class="chip">Oracle SOA</span><span class="chip">Workato</span><span class="chip">Dell Boomi</span>
+</div>
+</div>
+<div class="stack-row">
+<h4>AI / Agentic</h4>
+<div class="chips">
+<span class="chip">LangChain</span><span class="chip">LangGraph</span><span class="chip">Google ADK</span><span class="chip">Amazon Bedrock</span><span class="chip">Vertex AI</span><span class="chip">Kong AI Gateway</span><span class="chip">MCP</span><span class="chip">A2A</span>
+</div>
+</div>
+<div class="stack-row">
+<h4>Cloud</h4>
+<div class="chips">
+<span class="chip">GCP</span><span class="chip">AWS</span><span class="chip">Azure</span><span class="chip">Docker</span><span class="chip">Kubernetes</span>
+</div>
+</div>
+<div class="stack-row">
+<h4>Data &amp; Observability</h4>
+<div class="chips">
+<span class="chip">Databricks</span><span class="chip">Airflow</span><span class="chip">Grafana</span><span class="chip">Dynatrace</span><span class="chip">Splunk</span>
+</div>
+</div>
+<div class="stack-row">
+<h4>Languages</h4>
+<div class="chips">
+<span class="chip">Python</span><span class="chip">Java</span><span class="chip">Go</span>
+</div>
+</div>
+</div>
+</section>
 
-  <section id="certifications">
-    <div class="eyebrow"><span class="num">04</span> Certifications</div>
-    <h2 class="section-title">Credentials</h2>
-    <div class="certs">
-      <div class="cert"><div class="cert-badge">M5</div><div><div class="cert-name">MuleSoft 5x Certified Architect (Mule 4)</div><div class="cert-issuer">Salesforce / MuleSoft</div></div></div>
-      <div class="cert"><div class="cert-badge">A2</div><div><div class="cert-name">Certified Airflow 2x Developer</div><div class="cert-issuer">Astronomer</div></div></div>
-      <div class="cert"><div class="cert-badge">AI</div><div><div class="cert-name">Certified AI Dojo — Generative AI</div><div class="cert-issuer">Optum</div></div></div>
-      <div class="cert"><div class="cert-badge">KD</div><div><div class="cert-name">Certified Kong Developer</div><div class="cert-issuer">Kong</div></div></div>
-      <div class="cert"><div class="cert-badge">CA</div><div><div class="cert-name">Certified Camunda Architect</div><div class="cert-issuer">Camunda</div></div></div>
-      <div class="cert"><div class="cert-badge">WA</div><div><div class="cert-name">Certified Workato Architect</div><div class="cert-issuer">Workato</div></div></div>
-      <div class="cert"><div class="cert-badge">SO</div><div><div class="cert-name">Oracle SOA Suite Certified Implementation Specialist</div><div class="cert-issuer">Oracle</div></div></div>
-      <div class="cert"><div class="cert-badge">DB</div><div><div class="cert-name">Dell Boomi Associate Developer Certification</div><div class="cert-issuer">Dell Boomi</div></div></div>
-      <div class="cert"><div class="cert-badge">OC</div><div><div class="cert-name">Oracle Cloud Infrastructure Foundations 2021 — Associate</div><div class="cert-issuer">Oracle</div></div></div>
-      <div class="cert"><div class="cert-badge">CF</div><div><div class="cert-name">Confluent Fundamentals for Apache Kafka — Accredited</div><div class="cert-issuer">Confluent</div></div></div>
-    </div>
-  </section>
+<section id="certifications">
+<div class="eyebrow"><span class="num">04</span> Certifications</div>
+<h2 class="section-title">Credentials</h2>
+<div class="certs">
+<div class="cert"><div class="cert-badge">M5</div><div><div class="cert-name">MuleSoft 5x Certified Architect (Mule 4)</div><div class="cert-issuer">Salesforce / MuleSoft</div></div></div>
+<div class="cert"><div class="cert-badge">A2</div><div><div class="cert-name">Certified Airflow 2x Developer</div><div class="cert-issuer">Astronomer</div></div></div>
+<div class="cert"><div class="cert-badge">AI</div><div><div class="cert-name">Certified AI Dojo — Generative AI</div><div class="cert-issuer">Optum</div></div></div>
+<div class="cert"><div class="cert-badge">KD</div><div><div class="cert-name">Certified Kong Developer</div><div class="cert-issuer">Kong</div></div></div>
+<div class="cert"><div class="cert-badge">CA</div><div><div class="cert-name">Certified Camunda Architect</div><div class="cert-issuer">Camunda</div></div></div>
+<div class="cert"><div class="cert-badge">WA</div><div><div class="cert-name">Certified Workato Architect</div><div class="cert-issuer">Workato</div></div></div>
+<div class="cert"><div class="cert-badge">SO</div><div><div class="cert-name">Oracle SOA Suite Certified Implementation Specialist</div><div class="cert-issuer">Oracle</div></div></div>
+<div class="cert"><div class="cert-badge">DB</div><div><div class="cert-name">Dell Boomi Associate Developer Certification</div><div class="cert-issuer">Dell Boomi</div></div></div>
+<div class="cert"><div class="cert-badge">OC</div><div><div class="cert-name">Oracle Cloud Infrastructure Foundations 2021 — Associate</div><div class="cert-issuer">Oracle</div></div></div>
+<div class="cert"><div class="cert-badge">CF</div><div><div class="cert-name">Confluent Fundamentals for Apache Kafka — Accredited</div><div class="cert-issuer">Confluent</div></div></div>
+</div>
+</section>
 
-  <section id="connect">
-    <div class="eyebrow"><span class="num">05</span> Connect</div>
-    <div class="connect">
-      <p>Always up for a conversation on agentic AI systems, enterprise integration, or SRE practices.</p>
-      <div class="connect-links">
-        <a class="btn primary" href="https://www.linkedin.com/in/itspolagani" target="_blank" rel="noopener">LinkedIn ↗</a>
-        <a class="btn" href="mailto:polagani.srinivasarao@gmail.com">Email</a>
-        <a class="btn" href="https://github.com/upxill" target="_blank" rel="noopener">GitHub ↗</a>
-      </div>
-    </div>
-  </section>
+<section id="connect">
+<div class="eyebrow"><span class="num">05</span> Connect</div>
+<div class="connect">
+<p>Always up for a conversation on agentic AI systems, enterprise integration, or SRE practices.</p>
+<div class="connect-links">
+<a class="btn primary" href="https://www.linkedin.com/in/itspolagani" target="_blank" rel="noopener">LinkedIn ↗</a>
+<a class="btn" href="mailto:polagani.srinivasarao@gmail.com">Email</a>
+<a class="btn" href="https://github.com/upxill" target="_blank" rel="noopener">GitHub ↗</a>
+</div>
+</div>
+</section>
 
 </main>
 
-<footer>status: operational &middot; last deployed 2026</footer>
+<footer>status: operational &middot; last deployed Sep 2026</footer>
 </body>
-</html>PASTE_TEST_OK
+</html>
