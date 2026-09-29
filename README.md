@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi 👋, I'm Srinivasarao Polagani
+# Hi 👋, I'm Srinivasarao P
 
 ### Principal Engineer,TLCP · Agentic AI, LLM Orchestration & Healthcare Integration
 
